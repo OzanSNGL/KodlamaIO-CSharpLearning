@@ -80,12 +80,6 @@ namespace ClassMethodDemo
                 Console.WriteLine("You have entered an invalid ID Code.");
                 goto start;
             }
-
-
-
-
-
-
         }
     }
 }
