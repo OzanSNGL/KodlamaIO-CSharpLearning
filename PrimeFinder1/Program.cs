@@ -21,7 +21,6 @@ namespace PrimeFinder1
                         if (num1 % i == 0)
                         {
                             Console.WriteLine(num1 + " is not a prime number.\n");
-                            goto start;
                         }
 
                     }
@@ -30,5 +29,4 @@ namespace PrimeFinder1
                 goto start;
             }
         }
-
     }
