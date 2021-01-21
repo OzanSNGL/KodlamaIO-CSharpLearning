@@ -7,13 +7,13 @@ namespace ClassMethodDemo
         static void Main(string[] args)
         {
             #region customers
-            Customer customer1 = new Customer { Id = 1000001, Name = "John", Surname = "Foley", Working = true};
+            Customer customer1 = new Customer(1000001, "John", "Foley", true);
 
-            Customer customer2 = new Customer { Id = 1000002, Name = "Lacy", Surname = "Evans", Working = false};
+            Customer customer2 = new Customer(1000002, "Lacy", "Evans", false);
 
-            Customer customer3 = new Customer { Id = 1000003, Name = "Victor", Surname = "Oladipo", Working = true };
+            Customer customer3 = new Customer(1000003, "Victor", "Oladipo", true);
 
-            Customer customer4 = new Customer { Id = 1000004, Name = "Blake", Surname = "Manning", Working = false };
+            Customer customer4 = new Customer(1000004, "Blake", "Manning", false);
 
             Customer[] allCustomers = new Customer[] { customer1, customer2, customer3, customer4 };
             #endregion
