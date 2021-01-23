@@ -15,7 +15,7 @@ namespace DictionaryDemo
             names.Add(05, "Umut");
             names.Add(06, "Tuncay");
             names.Add(07, "Benek");
-
+            names.Add(08, "Rita");
 
 
             foreach (var a in names.Words )
